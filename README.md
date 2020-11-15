@@ -3,6 +3,10 @@ It should be no surprise to anyone that Stanley Tucci is the most influential ac
 So, I decided to work on this quick personal project to explore the depths of Stanley Tucci's talent, asking the question:
 ### Is there anything he can't do ? 
 
-## Data Set Up
+## Data Scraping 
 
-This project uses Stanley Tucci's wikipedia page as reference for his movie appearances. From this set up of movies, three different datasets were created. The first dataset was created from information scraped off of each movie's Wikipedia page. 
+This project uses Stanley Tucci's wikipedia page as reference for his movie appearances. From this set up of movies, three different datasets were created. The first dataset was created from information box scraped off of each of the movie's wikipedia page. This dataset contains information like each movie's stars, budget, box office earnings and more. The next dataset was added onto the previous dataset. This next dataset was created using the rotten tomatoes API for each movie. Finally, the third dataset was created from the original Wikipedia page of each movie. This dataset contains a corpus describing each of Stanley Tucci's movie. The Wikipedia page was scraped for sections containing the header 'Plot' or 'Synopsis', if there is no section then the introductory section of the Wikipedia page is added into the corpus instead. 
+
+
+## Data Cleaning
+
